@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE classroom [
+    <!ELEMENT classroom (student+)>
+    <!ELEMENT student (nombre, matricula, edad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT matricula (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ATTLIST student id ID #REQUIRED>
+]>
+
+<classroom>
+    <student id="st1">
+        <nombre>BALTAZAR TRINIDAD, JOHAN DAVID</nombre>
+        <matricula>zs21020562</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st2">
+        <nombre>BARRENA GONZALEZ, ERICK</nombre>
+        <matricula>zs21004533</matricula>
+        <edad>25</edad>
+    </student>
+    <student id="st3">
+        <nombre>FLORES RAMIREZ, CRISTIAN FERNANDO</nombre>
+        <matricula>zs21004511</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st4">
+        <nombre>GARCIA ALONSO, JOSE FRANCISCO</nombre>
+        <matricula>zs21020563</matricula>
+        <edad>23</edad>
+    </student>
+    <student id="st5">
+        <nombre>GUTIERREZ VOTTE, CARLOS EHYTAM</nombre>
+        <matricula>zs21004534</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st6">
+        <nombre>HERNANDEZ HERNANDEZ, OMAR</nombre>
+        <matricula>zs21004477</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st7">
+        <nombre>JUAREZ BRENIS, MELISSA MARLENE</nombre>
+        <matricula>zs21020564</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st8">
+        <nombre>MARTINEZ RIVERA, JOSE EMMANUEL</nombre>
+        <matricula>zs21004482</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st9">
+        <nombre>RAFAEL DE JESUS, EMILIO ENRIQUE</nombre>
+        <matricula>zs21004506</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st10">
+        <nombre>RIVERA FLORES, MIGUEL ANGEL</nombre>
+        <matricula>zs21004509</matricula>
+        <edad>23</edad>
+    </student>
+    <student id="st11">
+        <nombre>ROMERO PEREZ, LUIS ENRIQUE</nombre>
+        <matricula>zs21004524</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st12">
+        <nombre>ROSAS MOTO, BERNARDO</nombre>
+        <matricula>zs21020566</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st13">
+        <nombre>SOLANO VICTORIA, JESUS GERARDO</nombre>
+        <matricula>zs21004479</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st14">
+        <nombre>VEGA VILLEGAS, SALVADOR</nombre>
+        <matricula>zs21004525</matricula>
+        <edad>21</edad>
+    </student>
+    <student id="st15">
+        <nombre>FRANCISCO FERNANDES FERNANDES</nombre>
+        <matricula>zS20006739</matricula>
+        <edad>22</edad>
+    </student>
+</classroom>
